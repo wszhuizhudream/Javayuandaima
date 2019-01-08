@@ -11,11 +11,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="TestHashMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
+=======
+    <leaf>
+      <file leaf-file-name="TestHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,7 +35,11 @@
       <file leaf-file-name="TestQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestQueue.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1804">
+=======
+            <state relative-caret-position="415">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
               <caret line="83" selection-end-line="86" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,7 +51,11 @@
       <file leaf-file-name="TestProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestProperties.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="198">
+=======
+            <state relative-caret-position="264">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
               <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,7 +68,11 @@
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestCollections.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
+<<<<<<< HEAD
               <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+=======
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
             </state>
           </provider>
         </entry>
@@ -61,7 +81,11 @@
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/hello.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
+<<<<<<< HEAD
               <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
             </state>
           </provider>
         </entry>
@@ -70,7 +94,11 @@
         <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
+<<<<<<< HEAD
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+=======
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
             </state>
           </provider>
         </entry>
@@ -103,9 +131,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
+=======
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,6 +170,7 @@
               <item name="java-idea-1-7-collection2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="TestCollections" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -143,6 +178,8 @@
               <item name="java-idea-1-7-collection2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
               <item name="TestProperties" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -255,16 +292,24 @@
       <option name="presentableId" value="Default" />
       <updated>1546860087930</updated>
       <workItem from="1546860092617" duration="8077000" />
+<<<<<<< HEAD
       <workItem from="1546907758673" duration="76000" />
+=======
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8153000" />
+=======
+    <option name="totallyTimeSpent" value="8077000" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -293,6 +338,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32932332" />
+=======
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32932332" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,9 +377,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/hello/properties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -312,6 +396,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1826">
@@ -331,6 +416,10 @@
           </folding>
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/src/hello/properties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/hello.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -346,6 +435,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestCollections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -380,6 +470,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1804">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
           <caret line="83" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -389,7 +484,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestProperties.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="198">
+=======
+        <state relative-caret-position="264">
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -400,7 +499,11 @@
     <entry file="file://$PROJECT_DIR$/src/com/wschase/hashmap/TestCollections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
+<<<<<<< HEAD
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+=======
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+>>>>>>> d17bb017fa049d024f3b6afacf92d3cad803ae3c
         </state>
       </provider>
     </entry>
