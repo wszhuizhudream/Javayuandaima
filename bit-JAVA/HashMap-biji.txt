@@ -1,0 +1,13 @@
+1.在Hashtable里面，key和values不能为null
+2.在Hashtable里面有一个synchronized->表示同步线程
+但是HashMap里面是没有的。
+3.将HashMap变成线程安全：synchronizedMap<k,v>(Map<k,v> m)
+4.HashMap转化为Collections类的synchronizedMap是通过代理模式实现的类的synchronizedMap是通过代理模式实现的
+5.默认的是我们没有给定默认容量的时候是用桶的默认容量为16，如果我们给定了默认容量并且也给了leve的值，如果
+默认容量小于这个leve的值，就会将默认容量调整为leve的值，并且会将不是2的多少次方调整为2的多少次方法。 
+6.set集合没有下标，所以不可以使用for循环遍历
+7.只要我们使用集合的时候只要是自定义类型就必须要都将HashCode和equals覆写
+8.TreeMap会按照我们的key值进行排序，并且它的排序进行从小到大的排序
+（1）key时系统类型的时候，如果我们想要更改这个排序的顺序那么我们采用在实例化对象的时候传一个TreeMap的过早方法传入比较器接口的实现。
+（2）如果key是自定义的类，那么我们可以实现比较接口compareable，也可以不去实现再使用的时候指定比较器（Comparator）接口的实现类对象
+（3）采用使用时指定Comparator方式更加灵活
