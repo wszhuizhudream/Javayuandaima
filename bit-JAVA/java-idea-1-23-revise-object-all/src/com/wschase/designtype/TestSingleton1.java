@@ -5,10 +5,21 @@ package com.wschase.designtype;
  * Author:WSChase
  * Created:2019/1/23
  */
-class Singleton{
-    public void print(){
-        System.out.println("hello world");
-    }
+//class Singleton{
+//    public void print(){
+//        System.out.println("hello world");
+//    }
+//}
+
+//想要只生成一个对象那么我们首先想到的方法是将这个类声明为私有的
+    class Singleton{
+        Singleton(){
+            //声明构造方法为私有的
+        }
+
+        public void print(){
+            System.out.println("hello world");
+        }
 }
 public class TestSingleton1 {
     public static void main(String[] args) {
@@ -17,3 +28,27 @@ public class TestSingleton1 {
         singleton.print();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
