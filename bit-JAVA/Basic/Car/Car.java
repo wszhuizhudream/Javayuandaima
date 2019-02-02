@@ -1,4 +1,5 @@
-public class Car{
+﻿public class Car{
+
 	//属性
 	private String color;  //颜色
 	private int id;     //车牌号
@@ -41,6 +42,7 @@ public class Car{
 	int price(){
 		return price;
 	}
+
 	//set函数是为了给相应的属性传值，对创建对象时已经赋值的属性进行修改
 	//那么它不需要返回值但需要参数进行传递
 	//因为时在当前类里面的所以就算是私有属性也可以通过this进行访问。
