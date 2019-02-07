@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4d997d4-8ab0-48d8-81d2-32235a8446d0" name="Default" comment="" />
+    <list default="true" id="dd21e009-2122-401c-9a6b-5546bcb08d83" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode.java">
+      <file leaf-file-name="TestInner1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCode2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestInner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="154">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -44,7 +26,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wschase/object2/TestCode.java" />
-        <option value="$PROJECT_DIR$/src/com/wschase/object2/TestCode2.java" />
-        <option value="$PROJECT_DIR$/src/com/wschase/inner/TestInner.java" />
+        <option value="$PROJECT_DIR$/src/com/wschase/inner/TestInner1.java" />
       </list>
     </option>
   </component>
@@ -65,9 +44,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -79,33 +58,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="java-idea-2-4-object-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-2-4-object-2" type="462c0819:PsiDirectoryNode" />
+              <item name="java-idea-2-6-revise-inner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-idea-2-6-revise-inner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-idea-2-4-object-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-2-4-object-2" type="462c0819:PsiDirectoryNode" />
+              <item name="java-idea-2-6-revise-inner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-idea-2-6-revise-inner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-idea-2-4-object-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-2-4-object-2" type="462c0819:PsiDirectoryNode" />
+              <item name="java-idea-2-6-revise-inner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-idea-2-6-revise-inner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wschase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-idea-2-4-object-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-2-4-object-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wschase" type="462c0819:PsiDirectoryNode" />
               <item name="inner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,29 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCode2">
-    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wschase.object2.TestCode" />
-      <module name="java-idea-2-4-object-2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wschase.object2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestCode2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wschase.object2.TestCode2" />
-      <module name="java-idea-2-4-object-2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wschase.object2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -190,37 +140,27 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.TestCode" />
-      <item itemvalue="Application.TestCode2" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestCode2" />
-        <item itemvalue="Application.TestCode" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4d997d4-8ab0-48d8-81d2-32235a8446d0" name="Default" comment="" />
-      <created>1549263103108</created>
+      <changelist id="dd21e009-2122-401c-9a6b-5546bcb08d83" name="Default" comment="" />
+      <created>1549439645548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549263103108</updated>
-      <workItem from="1549263107623" duration="3100000" />
-      <workItem from="1549439261573" duration="383000" />
+      <updated>1549439645548</updated>
+      <workItem from="1549439649570" duration="1014000" />
+      <workItem from="1549525581564" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3483000" />
+    <option name="totallyTimeSpent" value="1514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="760" y="0" width="783" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -232,11 +172,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2577031" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07692308" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,7 +190,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,45 +199,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/object2/TestCode2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/inner/TestInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
