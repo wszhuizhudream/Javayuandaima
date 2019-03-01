@@ -1,4 +1,4 @@
-1.在Hashtable里面，key和values不能为null
+﻿1.在Hashtable里面，key和values不能为null
 2.在Hashtable里面有一个synchronized->表示同步线程
 但是HashMap里面是没有的。
 3.将HashMap变成线程安全：synchronizedMap<k,v>(Map<k,v> m)
