@@ -7,7 +7,8 @@ package com.bittech.thread;
  * Created: 2018/12/30
  */
 public class TestThread1 {
-    
+
+
     public static void main(String[] args) {
         MyRunnable myRunnable = new MyRunnable();
         Thread thread = new Thread(myRunnable, "子线程");
