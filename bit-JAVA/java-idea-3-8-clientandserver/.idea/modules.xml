@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/char-room-client/cha.iml" filepath="$PROJECT_DIR$/char-room-client/cha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat-room-server/chat-room-server.iml" filepath="$PROJECT_DIR$/chat-room-server/chat-room-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-idea-3-8-clientandserver.iml" filepath="$PROJECT_DIR$/java-idea-3-8-clientandserver.iml" />
+    </modules>
+  </component>
+</project>
