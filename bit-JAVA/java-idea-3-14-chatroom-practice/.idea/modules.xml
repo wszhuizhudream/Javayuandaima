@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chatroom-mutil-client/chatroom-mutil-client.iml" filepath="$PROJECT_DIR$/chatroom-mutil-client/chatroom-mutil-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatroom-mutil-server/chatroom-mutil-server.iml" filepath="$PROJECT_DIR$/chatroom-mutil-server/chatroom-mutil-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-idea-3-14-chatroom-practice.iml" filepath="$PROJECT_DIR$/java-idea-3-14-chatroom-practice.iml" />
+    </modules>
+  </component>
+</project>
