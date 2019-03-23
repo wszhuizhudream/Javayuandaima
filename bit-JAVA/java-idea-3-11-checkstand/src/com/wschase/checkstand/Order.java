@@ -58,7 +58,7 @@ public class Order {
         this.goodsInfo.clear();
 
     }
-//自己扩展：
+//扩展：
 
     //列举订单
 

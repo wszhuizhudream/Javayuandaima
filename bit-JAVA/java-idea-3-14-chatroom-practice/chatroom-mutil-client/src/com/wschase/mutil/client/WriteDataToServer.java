@@ -23,13 +23,16 @@ public class WriteDataToServer extends Thread{
             OutputStream outputStream=client.getOutputStream();
             OutputStreamWriter writer=new OutputStreamWriter(outputStream);
 
+            //提示用户输入
+            System.out.println("欢迎使用迷你聊天室[使用提示]\n" +
+                    "            1.注册：userName:<name>\n" +
+                    "            2.私聊：private:<name>:message\n" +
+                    "            3.群聊：group:message\n" +
+                    "            4.退出：bye");
+
                 //注意：这个地方向服务端写入的数据是用户从界面输入的数据
                 Scanner scanner=new Scanner(System.in);
             while (true){
-                System.out.println(" 1.注册：userName:<name>\n" +
-                        "            2.私聊：private:<name>:message\n" +
-                        "            3.群聊：group:message\n" +
-                        "            4.退出：bye");
                 System.out.println("请输入消息：");
                 String message=scanner.nextLine();
                 //注意：在给服务器发完消息以后一定要记得加上"\n",因为在服务器读取数据的时候是按照行来读取的

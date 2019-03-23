@@ -5,6 +5,7 @@ import com.wschase.checkstand.GoodsCenter;
 import com.wschase.checkstand.Order;
 import com.wschase.checkstand.OrderCenter;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -47,7 +48,7 @@ public class SimpleOrderCenter implements OrderCenter {
           for(Map.Entry<String,Integer> entry:goodsMap.entrySet()){
               String goodsId=entry.getKey();
               Integer goodsCount=entry.getValue();
-              Goods goods=goodsCount.getGoods(goodsId);
+              Goods goods=goodsCenter.getGoods(goodsId);
               totalPrice+=goods.getPrice()*goodsCount;
           }
           sb.append(String.format("%2s\t\t%.2f",order.getOrderId(),totalPrice));
