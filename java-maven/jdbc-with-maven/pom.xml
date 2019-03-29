@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--标识项目，坐标【必填】-->
+    <groupId>com.wschase</groupId>
+    <artifactId>jdbc-with-maven</artifactId>
+    <version>1.0.0</version>
+    <!--指定项目打包类型 jar war pom【可选，默认jar】-->
+    <packaging>jar</packaging>
+
+    <!--项目名称【可选】-->
+    <name>jdbc-with-maven</name>
+
+    <!--项目描述信息【可选】-->
+    <description>
+        这是一个由jdbc改造成的项目
+    </description>
+
+    <!--开发者信息列表【可选】-->
+    <developers>
+        <developer>
+            <id>001</id>
+            <name>wschase</name>
+            <email>ws1041646364.163com</email>
+            <roles>
+                <role>Creator</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <!--属性信息【可选，但是一般都会配置一些】-->
+    <properties>
+        <!--配置编码-->
+        <encoding>UTF-8</encoding>
+        <!--配置JDK版本-->
+        <java.version>1.8</java.version>
+        <!--配置Maven内置属性【可选，但是可以覆盖】-->
+        <!--语法级别-->
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <!--编译级别-->
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+    <!--配置依赖的jar包-->
+    <dependencies>
+        <!--使用第三方的jar包，需要在http://search.maven.org这个网站上搜索并获取jar包的坐标-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+
+    </dependencies>
+
+    <!--配置构建信息-->
+    <build>
+        <plugins>
+            <!--插件也是由maven管理并且构建的一个程序，插件也有坐标，插件是支撑maven工作-->
+
+
+            <!--复制依赖的jar到classpath-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
+
+                <!--配置插件的执行的目标-->
+                <executions>
+                    <execution>
+                        <id>copy</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <!--project/target/lib
+                            project.build.directory==表示target目录-->
+                            <outputDirectory>
+                                ${project.build.directory}/lib
+                            </outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+            <!--jar:用来生成jar文件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <!--这里还可以配置其他的信息-->
+                <configuration>
+                    <archive>
+                        <!--在maninfest中配置的属性一定要注意大小写-->
+                        <manifest>
+                            <!--主类-->
+                        <mainClass>
+                            com.wschase.jdbc.TestUseJdbcTemplete
+                        </mainClass>
+                            <!--表示：将依赖的jar路径添加到classpath-->
+                            <addClasspath>true</addClasspath>
+                            <!--表示：依赖的jar在lib目录指定lib为classpath的前缀-->
+                            <classpathPrefix>/lib</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
