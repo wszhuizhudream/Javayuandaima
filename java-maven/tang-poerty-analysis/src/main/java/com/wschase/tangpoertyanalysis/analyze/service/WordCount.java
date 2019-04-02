@@ -1,9 +1,12 @@
 package com.wschase.tangpoertyanalysis.analyze.service;
 
+import lombok.Data;
+
 /**词云
  * Author:WSChase
  * Created:2019/3/29
  */
+@Data
 public class WordCount {
     //每个词
     private String word;

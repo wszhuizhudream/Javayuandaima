@@ -3,6 +3,8 @@ package com.wschase.tangpoertyanalysis.analyze.dao.impl;
 import com.wschase.tangpoertyanalysis.analyze.dao.AnalyzeDao;
 import com.wschase.tangpoertyanalysis.analyze.entity.PoertyInfo;
 import com.wschase.tangpoertyanalysis.analyze.model.AuthorCount;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -17,6 +19,7 @@ import java.util.List;
  * Created:2019/3/29
  */
 public class AnalyzeDaoImpl implements AnalyzeDao {
+    private final Logger logger=LoggerFactory.getLogger(AnalyzeDaoImpl.class);
 
     //JDBC变成就需要先把数据源准备好
     private final DataSource dataSource;
@@ -41,7 +44,7 @@ public class AnalyzeDaoImpl implements AnalyzeDao {
                //首先实例化一个作者作品集的对象，然后通过这个对象在数据库中获取两个属性：作者名字、作品数量
                AuthorCount authorCount=new AuthorCount();
                //从数据库中获取作何名字
-               authorCount.setName(resultSet.getString("author"));
+               authorCount.setAuthor(resultSet.getString("author"));
                //从数据库中获取作者作品数量
                authorCount.setCount(resultSet.getInt("count"));
                //将取出来的作者作品数量放进集合里面
@@ -49,6 +52,7 @@ public class AnalyzeDaoImpl implements AnalyzeDao {
            }
 
         }catch (SQLException e){
+            logger.error("Database query occur execption {}.",e.getMessage());
 
         }
         return datas;
@@ -82,9 +86,9 @@ public class AnalyzeDaoImpl implements AnalyzeDao {
             }
 
         }catch (SQLException e){
-
+            logger.error("Database query occur execption {}.",e.getMessage());
         }
 
-        return null;
+        return datas;
     }
 }

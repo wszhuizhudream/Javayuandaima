@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class AuthorCount {
     //作者的名字
-    private String name;
+    private String author;
 
     //作者作品的数量
     private Integer count;
