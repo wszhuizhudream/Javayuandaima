@@ -1,4 +1,4 @@
-package com.wschase.songcianalysis.analyze.service;
+package com.wschase.songcianalysis.analyze.model;
 
 import lombok.Data;
 

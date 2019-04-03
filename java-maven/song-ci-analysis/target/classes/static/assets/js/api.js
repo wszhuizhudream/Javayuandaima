@@ -1,4 +1,5 @@
 /*
+
  api.js
  1. 主要用于前端页面与后端的交互
  前端：HTML+CSS+JavaScript开发的浏览器识别的Web程序
@@ -42,7 +43,6 @@ function creationRanking(id) {
             //List<AuthorCount>
             for (var i=0; i< data.length; i++) {
                 var authorCount  = data[i];
-                //在js里面的数组是动态的，相当于我们的LinkedList，所以可以无限制的加
                 options.xAxis.data.push(authorCount.author);
                 options.series[0].data.push(authorCount.count);
             }
@@ -109,6 +109,52 @@ function cloudWorld(id) {
                         emphasis: {}
                     }
                 });
+            }
+            myChart.setOption(options, true);
+        },
+        error: function (xhr, status, error) {
+
+        }
+    });
+}
+
+function wordGroup(id) {
+    $.get({
+        url: "/analyze/word_group",
+        dataType: "json",
+        method: "get",
+        success: function (data, status, xhr) {
+            //echarts图表对象
+            var myChart = echarts.init(document.getElementById(id));
+            var options = {
+                //图标的标题
+                title: {
+                    text: '宋词词牌名排行榜'
+                },
+
+                tooltip: {},
+                //柱状图的提示信息
+                legend: {
+                    data: ['数量(词牌名)']
+                },
+                //X轴的数据：词牌名
+                xAxis: {
+                    data: []
+                },
+                //Y轴的数据：词牌名的数量
+                yAxis: {},
+                series: [{
+                    name: '词牌名数量',
+                    type: 'bar',
+                    data: []
+                }]
+            };
+
+            //List<WordGroup>
+            for (var i=0; i< data.length; i++) {
+                var wordGroup  = data[i];
+                options.xAxis.data.push(wordGroup.wordGroup);
+                options.series[0].data.push(wordGroup.count);
             }
             myChart.setOption(options, true);
         },

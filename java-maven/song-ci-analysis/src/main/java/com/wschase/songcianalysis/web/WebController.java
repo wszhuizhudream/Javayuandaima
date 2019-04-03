@@ -2,8 +2,9 @@ package com.wschase.songcianalysis.web;
 
 import com.google.gson.Gson;
 import com.wschase.songcianalysis.analyze.model.AuthorCount;
+import com.wschase.songcianalysis.analyze.model.WordGroup;
 import com.wschase.songcianalysis.analyze.service.AnalyService;
-import com.wschase.songcianalysis.analyze.service.WordCount;
+import com.wschase.songcianalysis.analyze.model.WordCount;
 import com.wschase.songcianalysis.config.ObjectFactory;
 import com.wschase.songcianalysis.crawler.Crawler;
 import spark.*;
@@ -31,6 +32,7 @@ public class WebController {
     //->/analyze/author_count
     //->/analyze/word_cloud
     private List<AuthorCount> analyAuthorCount(){
+
         return analyService.analyzeAuthorCount();
     }
 
@@ -38,6 +40,10 @@ public class WebController {
     private List<WordCount> analyzeWordCount(){
         //分析并返回词云
         return analyService.analyzeWordCloud();
+    }
+
+    private List<WordGroup> analyzeWordGroup(){
+        return analyService.analyzeWordGroup();
     }
 
     //运行Web
@@ -53,6 +59,9 @@ public class WebController {
 
         Spark.get("analyze/word_cloud",
                 ((request, response) -> analyzeWordCount()),jsonResponseTransformer);
+
+        Spark.get("analyze/word_group",
+                ((request, response) -> analyzeWordGroup()),jsonResponseTransformer);
 
 
         //爬虫停止:也可以通过按钮的形式来停止爬虫
