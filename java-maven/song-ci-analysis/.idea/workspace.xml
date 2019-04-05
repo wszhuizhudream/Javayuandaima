@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639b86b8-43d8-4d3f-8790-a8cb08e9a59e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/AnalyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/AnalyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/songci.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/songci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/AnalyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/AnalyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/web/WebController$JSONResponseTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/web/WebController$JSONResponseTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/web/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wschase/songcianalysis/web/WebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/songci.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/songci.html" afterDir="false" />
-    </list>
+    <list default="true" id="639b86b8-43d8-4d3f-8790-a8cb08e9a59e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -242,10 +223,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,9 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,6 +377,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,14 +518,16 @@
       <workItem from="1554128596135" duration="777000" />
       <workItem from="1554192567827" duration="15053000" />
       <workItem from="1554247907819" duration="2555000" />
+      <workItem from="1554428278719" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131289000" />
+    <option name="totallyTimeSpent" value="131921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -559,7 +542,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.60029715" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25775978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12887989" />
       <window_info anchor="right" id="Database" order="3" weight="0.45074224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -569,12 +552,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3080357" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.05357143" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3080357" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
