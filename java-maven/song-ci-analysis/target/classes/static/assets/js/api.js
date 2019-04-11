@@ -19,7 +19,7 @@ function creationRanking(id) {
             var options = {
                 //图标的标题
                 title: {
-                    text: '唐诗创作排行榜'
+                    text: '宋词创作排行榜'
                 },
 
                 tooltip: {},
