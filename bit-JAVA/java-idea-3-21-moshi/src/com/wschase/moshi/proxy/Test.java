@@ -26,6 +26,7 @@ class Proxy implements SendFlower{
     @Override
     public void sendFlower() {
         this.telephone();
+        //调用别人的方法就需要别人的对象
         this.sendPeople.sendFlower();
         this.sure();
     }

@@ -89,5 +89,7 @@ public class Client {
         Customer customer=new Customer(goods,monitor);
         new Thread(producer).start();
         new Thread(customer).start();
+
+        Math.pow()
     }
 }

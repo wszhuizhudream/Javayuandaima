@@ -33,8 +33,4 @@
 ![](images/词牌名排行榜.png)
 
 
-##扩展点
-+ 了解反爬虫和反反爬虫思路
-+ Web服务器选择Tomcat和Servlet
-
 
