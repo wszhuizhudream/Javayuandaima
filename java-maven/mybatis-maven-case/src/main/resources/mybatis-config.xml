@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="config/database.properties">
+        <property name="username" value="root"/>
+
+    </properties>
+
+    <!--mybatis的设置，主要影响mybatis的运行行为-->
+    <settings>
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+
+    <!--自定义类型别名-->
+    <typeAliases>
+        <!--<typeAlias alias="MemoGroup" type="com.wschase.entity.MemoGroup"/>-->
+
+        <!--
+        假如我们有几十个类那么上面起别名的方式就会特别的麻烦，所以我们可以将包直接起一个别名，
+        这样的话我们这个包下面的所有的类就可以使用别名了
+        -->
+
+        <!--我们并没有起别名，所以它里面的类是直接将自己的类名变为小写作为别名-->
+        <package name="com.wschase.entity"/>
+    </typeAliases>
+
+    <!--&lt;!&ndash;类型处理器：将我们java的jdbcType的VARCHAR类型都转化为我们自己定义的String的处理类型来处理&ndash;&gt;-->
+    <!--<typeHandlers>-->
+        <!--&lt;!&ndash;方法1：如果只指定一个自定义类型处理器，那么我们就直接在XML里面使用属性的方式进行自定义类型类型处理器&ndash;&gt;-->
+        <!--&lt;!&ndash;<typeHandler handler="com.wschase.plugin.MyStringTypeHandler" javaType="string" jdbcType="VARCHAR"/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;方法2：只用包来定义自定义类型处理器的时候我们就需要在我们的类里面使用注解&ndash;&gt;-->
+        <!--<package name="com.wschase.plugin"/>-->
+    <!--</typeHandlers>-->
+
+
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+            <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+        <environment id="prod">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
+                <property name="username" value="${username}"/>
+                <!--:后面的表示如果没有读取到那么就将后面的值作为启用默认值-->
+                <property name="password" value="${password:root}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="mapper/memoGroupMapper.xml"/>
+    </mappers>
+</configuration>
