@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wschase</groupId>
-    <artifactId>tang-poerty-analysis</artifactId>
+    <artifactId>song-ci-analyze</artifactId>
     <version>1.0.0</version>
 
     <packaging>jar</packaging>
-    <name>song-ci-analysis</name>
+    <name>song-ci-analyze</name>
 
-    <!--描述-->
+    <!--项目描述-->
     <description>
-        这是一个有趣的项目，用于分析唐诗中的各种情况
+        分析宋词中作者创作排行榜、词语的使用频率、词牌名的排行榜
     </description>
 
-    <!--开发者信息-->
+    <!--开发者的信息-->
     <developers>
         <developer>
             <id>01</id>
@@ -29,7 +29,7 @@
         </developer>
     </developers>
 
-    <!--基本属性-->
+<!--基本属性-->
     <properties>
         <encoding>UTF-8</encoding>
         <java.version>1.8</java.version>
@@ -37,10 +37,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
-
-
     <!--配置依赖-->
-    <!--https://search.maven.org-->
     <dependencies>
         <!--配置数据库-->
         <dependency>
@@ -49,8 +46,7 @@
             <version>5.1.47</version>
         </dependency>
 
-
-        <!--配置数据库链接池-->
+        <!--配置数据库连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -65,12 +61,14 @@
             <version>5.1.6</version>
         </dependency>
 
-        <!--基于jetty嵌入式Java Web容器开发的web应用框架-->
+
+        <!--基于jetty嵌入式java web容器开发的web应用框架-->
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
             <version>2.3</version>
         </dependency>
+
         <!--字符串转对象/对象转字符串的工具-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -93,23 +91,24 @@
 
 
         <!--编译时自动生成代码的库-->
-        <!--1.IDEA 安装 lombok插件 2.设置中启用注解处理器-->
+        <!--
+         1.IDEA安装Lombok插件
+         2.设置中启用注解处理器
+        -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.22</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
+
 
 
     <build>
         <plugins>
-
             <!--配置打包插件：设置主类和classpath-->
             <plugin>
-
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.0</version>
@@ -120,12 +119,10 @@
                             <addClasspath>true</addClasspath>
                             <!--表示：依赖的jar在lib目录指定lib为classpath的前缀-->
                             <classpathPrefix>/lib</classpathPrefix>
-                            <mainClass>com.wschase.songcianalysis.SongCiAnalyzeApplication</mainClass>
+                            <maniClass>com.wschase.songcianalysis.SongCiAnalyzeApplication</maniClass>
                         </manifest>
-
                     </archive>
                 </configuration>
-
             </plugin>
 
             <!--配置依赖插件，复制程序依赖的jar包-->
@@ -149,6 +146,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

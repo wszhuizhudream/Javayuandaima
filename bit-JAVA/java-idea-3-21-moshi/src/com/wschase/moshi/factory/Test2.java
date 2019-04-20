@@ -26,6 +26,7 @@ class SurComputer2 implements Computer2{
     }
 }
 
+//有一个类专门实现对象的实例化
 class MacFactory{
     public static MacComputer getMac(){
         return new MacComputer();

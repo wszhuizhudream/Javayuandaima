@@ -2,17 +2,19 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <!--1.数据库的配置信息：外部配置文件可以使用来替换需要动态配置的属性-->
     <properties resource="config/database.properties">
         <property name="username" value="root"/>
-
+        <property name="password" value="1041646364"/>
     </properties>
 
-    <!--mybatis的设置，主要影响mybatis的运行行为-->
+    <!--2.配置日志：先在pom.xml里面实现日志框架，然后在配置文件中配置日志-->
     <settings>
         <setting name="logImpl" value="SLF4J"/>
     </settings>
 
-    <!--自定义类型别名-->
+    <!--3.自定义类型别名-->
     <typeAliases>
         <!--<typeAlias alias="MemoGroup" type="com.wschase.entity.MemoGroup"/>-->
 
@@ -25,39 +27,50 @@
         <package name="com.wschase.entity"/>
     </typeAliases>
 
+    <!--4.处理器的配置-->
     <!--&lt;!&ndash;类型处理器：将我们java的jdbcType的VARCHAR类型都转化为我们自己定义的String的处理类型来处理&ndash;&gt;-->
     <!--<typeHandlers>-->
-        <!--&lt;!&ndash;方法1：如果只指定一个自定义类型处理器，那么我们就直接在XML里面使用属性的方式进行自定义类型类型处理器&ndash;&gt;-->
-        <!--&lt;!&ndash;<typeHandler handler="com.wschase.plugin.MyStringTypeHandler" javaType="string" jdbcType="VARCHAR"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;方法1：如果只指定一个自定义类型处理器，那么我们就直接在XML里面使用属性的方式进行自定义类型类型处理器&ndash;&gt;-->
+    <!--&lt;!&ndash;<typeHandler handler="com.wschase.plugin.MyStringTypeHandler" javaType="string" jdbcType="VARCHAR"/>&ndash;&gt;-->
 
-        <!--&lt;!&ndash;方法2：只用包来定义自定义类型处理器的时候我们就需要在我们的类里面使用注解&ndash;&gt;-->
-        <!--<package name="com.wschase.plugin"/>-->
+    <!--&lt;!&ndash;方法2：只用包来定义自定义类型处理器的时候我们就需要在我们的类里面使用注解&ndash;&gt;-->
+    <!--<package name="com.wschase.plugin"/>-->
     <!--</typeHandlers>-->
 
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
 
+    <!--5.配置环境-->
     <environments default="dev">
         <environment id="dev">
             <transactionManager type="JDBC"></transactionManager>
             <dataSource type="POOLED">
-            <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+
+    <!--6.用户数据库-->
+        <environment id="prod">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="dirver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
                 <property name="username" value="${username}"/>
                 <property name="password" value="${password}"/>
             </dataSource>
         </environment>
-        <environment id="prod">
-            <transactionManager type="JDBC"></transactionManager>
-            <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/memo"/>
-                <property name="username" value="${username}"/>
-                <!--:后面的表示如果没有读取到那么就将后面的值作为启用默认值-->
-                <property name="password" value="${password:root}"/>
-            </dataSource>
-        </environment>
     </environments>
 
+    <!--7.mapper的配置-->
     <mappers>
         <mapper resource="mapper/memoGroupMapper.xml"/>
+        <mapper resource="mapper/MemoInfoMapper.xml"/>
     </mappers>
+
 </configuration>

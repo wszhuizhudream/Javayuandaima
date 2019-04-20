@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639b86b8-43d8-4d3f-8790-a8cb08e9a59e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../memo-application/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/src/main/java/com/wschase/songcianalysis/crawler/Crawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/src/main/java/com/wschase/songcianalysis/crawler/pipeline/ConsolePipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../song-ci-analyze/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/src/com/wschase/moshi/factory/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/src/com/wschase/moshi/factory/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/src/com/wschase/moshi/moban/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-21-moshi/src/com/wschase/moshi/moban/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-24-customer-producer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-24-customer-producer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-24-jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-idea-3-24-jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/java-jdbc-4-14-revise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/java-jdbc-4-14-revise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bit-JAVA/mybatis-maven-case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bit-JAVA/mybatis-maven-case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-maven-case/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-maven-case/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/唐诗分析2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SongCiAnalyzeApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/SongCiAnalyzeApplication.java">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="-184">
+              <caret line="164" column="42" lean-forward="true" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,50 +85,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/api.js">
+      <file leaf-file-name="DataPageParse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/DataPageParse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="352">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongCiInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/entity/SongCiInfo.java">
+      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/DataSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="201">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalyzeDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/impl/AnalyzeDaoImpl.java">
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1606">
-              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="565">
-                <caret line="34" selection-start-line="34" selection-end-line="34" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="399">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -134,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/wschase/tangpoerty/TestHtmlUnit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/crawler/parse/DocumentParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/crawler/pipeline/ConsolePipeline.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/crawler/common/Data.java" />
@@ -154,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/analyze/service/AnalyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/analyze/model/AuthorCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/config/ConfigProperties.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/TangPoertyAnalyzeApplication.java" />
@@ -170,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/analyze/dao/impl/AnalyzeDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/SongCiAnalyzeApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/tangpoertyanalysis/analyze/entity/PoertyInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/entity/SongCiInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/AnalyzeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordCount.java" />
@@ -185,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/SongCiAnalyzeApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/assets/js/api.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java" />
       </list>
     </option>
   </component>
@@ -212,11 +210,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="705" />
-    <option name="y" value="51" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,11 +234,6 @@
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,7 +264,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -279,8 +273,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -289,9 +283,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -300,8 +294,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="Page" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -310,8 +305,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -320,8 +315,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="DataPageParse" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -330,9 +326,28 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="analyze" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="DocumentParse" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="Crawler" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="songcianalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="SongCiAnalyzeApplication" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -343,37 +358,47 @@
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="song-ci-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" type="70bed36:NamedLibraryElementNode" />
+              <item name="htmlunit-2.18.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" type="70bed36:NamedLibraryElementNode" />
+              <item name="htmlunit-2.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" type="70bed36:NamedLibraryElementNode" />
+              <item name="htmlunit-2.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-ci-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" type="70bed36:NamedLibraryElementNode" />
+              <item name="htmlunit-2.18.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="HtmlPage" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,11 +417,8 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static" />
-      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static\assets" />
-      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static\assets\js" />
-      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\target\classes" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wschase.tangpoertyanalysis.crawler.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\javasecode\Javayuandaima\java-maven\song-ci-analysis\images" />
@@ -408,8 +430,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wschase.tangpoertyanalysis.config" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wschase.tangpoertyanalysis.crawler.common" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static" />
+      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static\assets" />
+      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\src\main\resources\static\assets\js" />
+      <recent name="E:\javasecode\Javayuandaima\java-maven\tang-poerty-analysis\target\classes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -517,14 +542,16 @@
       <workItem from="1554904864566" duration="1315000" />
       <workItem from="1554963975001" duration="3455000" />
       <workItem from="1555047884151" duration="637000" />
+      <workItem from="1555403926642" duration="4688000" />
+      <workItem from="1555741092153" duration="12540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137328000" />
+    <option name="totallyTimeSpent" value="154556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -539,7 +566,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.60029715" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2928475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" weight="0.45074224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -549,12 +576,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3080357" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.05357143" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32886904" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3080357" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,63 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://739f5576-1e31-4cd3-a30c-5edf173ceba0/schema/tangshi/table/poetry_info" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar!/com/gargoylesoftware/htmlunit/html/HtmlPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3014">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/Parse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/DataPageParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/DocumentParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -721,31 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/ConsolePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Spliterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-261">
           <caret line="295" column="17" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/Pipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -763,45 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/AnalyzeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/AuthorCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/AnalyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/WebController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -816,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -845,55 +753,10 @@
         <state relative-caret-position="-3564" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/songci.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/songci.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/impl/AnalyzeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/entity/SongCiInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/SongCiAnalyzeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,20 +767,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="565">
-            <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <first_editor relative-caret-position="132">
+            <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/impl/AnalyzeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/service/impl/AnalyzeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="144" column="28" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/dao/AnalyzeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/entity/SongCiInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/AuthorCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/analyze/model/WordGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/web/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="147" column="29" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/songci.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/Pipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/DocumentParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/DatabasePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/pipeline/ConsolePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/parse/DataPageParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/common/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/SongCiAnalyzeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar!/com/gargoylesoftware/htmlunit/html/HtmlPage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wschase/songcianalysis/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="164" column="42" lean-forward="true" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

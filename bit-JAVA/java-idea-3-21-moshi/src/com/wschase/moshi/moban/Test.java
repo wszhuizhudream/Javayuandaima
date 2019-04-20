@@ -3,6 +3,7 @@ package com.wschase.moshi.moban;
 import java.util.Scanner;
 
 /**模板设计——冲咖啡、泡茶
+ * 模板设计模式就是同样的一个流程对于不同的人使用的方法不同、实现的功能不同
  * Author:WSChase
  * Created:2019/3/21
  */
