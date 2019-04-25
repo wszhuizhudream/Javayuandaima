@@ -6,6 +6,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -18,7 +19,7 @@ public class ExecuteClient implements Runnable {
     //ConcurrentHashMap可以处理线程的并发——并且我们希望我们的这个集合一直不会被改变
    private static final Map<String,Socket> ONLINE_USER_CLIENT=new ConcurrentHashMap<>();
 
-
+Queue<Integer>
     //定义变量——当前在线用户
     private final Socket currentClient;//这个用户就是后面我们需要对他进行一系列操作的用户
 

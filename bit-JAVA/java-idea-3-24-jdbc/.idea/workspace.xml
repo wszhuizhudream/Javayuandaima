@@ -45,7 +45,7 @@
       <file leaf-file-name="TestUseJdbcTemplete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
+            <state relative-caret-position="88">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,7 +57,7 @@
       <file leaf-file-name="JdbcTemplete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
+            <state relative-caret-position="2002">
               <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
@@ -90,8 +90,8 @@
       <file leaf-file-name="JdbcTemplete1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+            <state relative-caret-position="1826">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/Test1UseJdbcTemplete2.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/MemoGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/Test1UseJdbcTemplete1.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc/JdbcUpdate.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/Member.java" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc/JdbcTemplete.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java" />
+        <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java" />
       </list>
     </option>
   </component>
@@ -144,10 +144,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="747" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -156,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -188,28 +187,13 @@
               <item name="java-idea-3-24-jdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wschase" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc2" type="462c0819:PsiDirectoryNode" />
-              <item name="JdbcTemplete1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-idea-3-24-jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-3-24-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wschase" type="462c0819:PsiDirectoryNode" />
               <item name="moban" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-idea-3-24-jdbc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-idea-3-24-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wschase" type="462c0819:PsiDirectoryNode" />
-              <item name="moban" type="462c0819:PsiDirectoryNode" />
-              <item name="TestUseJdbcTemplete.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,14 +358,15 @@
       <workItem from="1555209978400" duration="2601000" />
       <workItem from="1555294455955" duration="1018000" />
       <workItem from="1555635060600" duration="999000" />
+      <workItem from="1556096924143" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51744000" />
+    <option name="totallyTimeSpent" value="53559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -396,7 +381,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12753037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0634278" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
@@ -706,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,7 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
+        <state relative-caret-position="88">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -804,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
+        <state relative-caret-position="2002">
           <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
           <folding>
             <element signature="e#282#283#0" expanded="true" />
@@ -824,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        <state relative-caret-position="1826">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
         </state>
       </provider>
     </entry>

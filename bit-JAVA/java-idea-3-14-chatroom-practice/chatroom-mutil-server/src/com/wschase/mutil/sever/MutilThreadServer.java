@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 public class MutilThreadServer {
     public static void main(String[] args) {
 
-        //首先我们需要创建一个线程池来装这些客户(加入我们指定一次性线程池中只能装下15个客户进行与服务器的交互)
+        //首先我们需要创建一个线程池来装这些客户(假如我们指定一次性线程池中只能装下15个客户进行与服务器的交互)
        final ExecutorService executorService=Executors.newFixedThreadPool(15);
 
         try {
