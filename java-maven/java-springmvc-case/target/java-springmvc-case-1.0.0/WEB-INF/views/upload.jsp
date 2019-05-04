@@ -12,7 +12,7 @@
     <title>主页</title>
 </head>
 <body>     
-  <form method="post" action="/user/login" enctype="multipart/form-data">            
+  <form method="post" action="/user/upload" enctype="multipart/form-data">            
       <label for="head">设置头像</label>            
       <input id="head" name="head" type="file" value="上传头像"/>            
       <input type="submit" value="提交">        

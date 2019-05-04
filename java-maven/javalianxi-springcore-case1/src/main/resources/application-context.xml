@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+    1.通过Spring实例化对象
+    -->
+   <!--对圆形这个类创建对象的描述信息，只告诉你怎么创建对象,这个id就表示对象的名字-->
+    <bean id="circular" class="com.wschase.springcore.common.impl.Circular">
+        <!--这个就表示构造方法给属性赋值,因为在我们的java代码里面没有默认的构造方法，所以必须添加constructor-arg-->
+        <constructor-arg name="radius" value="10"/>
+    </bean>
+
+    <!--对矩形这个类创建对象的描述信息，只告诉你怎么创建对象,这个id就表示对象的名字-->
+    <bean id="rectangle" class="com.wschase.springcore.common.impl.Rectangle">
+        <!--给属性赋值,因为在我们的java代码里面没有默认的构造方法，所以必须添加constructor-arg-->
+        <constructor-arg name="height" value="10"/>
+        <constructor-arg name="width" value="20"/>
+    </bean>
+
+    <!--对三角形这个类创建对象的描述信息，只告诉你怎么创建对象,这个id就表示对象的名字-->
+    <bean id="triangle" class="com.wschase.springcore.common.impl.Triangle">
+        <!--因为在我们的java代码里面没有默认的构造方法，所以必须添加constructor-arg-->
+        <constructor-arg name="a" value="10"/>
+        <constructor-arg name="b" value="24"/>
+        <constructor-arg name="c" value="30"/>
+    </bean>
+
+
+    <!--
+    2.由于在XmlShapeCompute这个类里面有默认的构造方法，所以我们不需要添加constructor-arg
+    -->
+    <bean id="xmlShapeCompute" class="com.wschase.springcore.xml.XmlShapeCompute">
+        <!--
+        这个XmlShapeCompute依赖了Shape这个类所以我们需要将它们的依赖关系在这里描述，容器会帮我们自动装配
+        这个ref表示引用的意思;下面的表达就是容器会将我们的circular的值赋值到我们的XmlShapeCompute的circular属性
+        -->
+        <property name="circular" ref="circular"/>
+        <property name="rectangle" ref="rectangle"/>
+        <property name="triangle" ref="triangle"/>
+    </bean>
+
+</beans>

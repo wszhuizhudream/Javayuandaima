@@ -19,7 +19,7 @@
                 <artifactId>spring-framework-bom</artifactId>
                 <version>4.3.9.RELEASE</version>
                 <type>pom</type>
-                <scope>compile</scope>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -35,7 +35,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.1.6.RELEASE</version>
         </dependency>
 
 
