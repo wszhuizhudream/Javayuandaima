@@ -1,0 +1,10 @@
+com\wschase\boot\component\ExampleBean.class
+com\wschase\boot\component\ExampleBean2.class
+com\wschase\boot\config\AppConfig.class
+com\wschase\boot\config\BookProperties.class
+com\wschase\boot\control\RedisController.class
+com\wschase\boot\control\IndexController.class
+com\wschase\boot\health\RandomHealth.class
+com\wschase\boot\config\AppConfiguration.class
+com\wschase\boot\ExampleApplication.class
+com\wschase\boot\control\MailController.class

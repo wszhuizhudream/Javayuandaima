@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.wschase.boot.ExampleApplicationWebTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.048 s <<< FAILURE! - in com.wschase.boot.ExampleApplicationWebTest
+test1(com.wschase.boot.ExampleApplicationWebTest)  Time elapsed: 1.159 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:80/mail/basic1": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.wschase.boot.ExampleApplicationWebTest.test1(ExampleApplicationWebTest.java:28)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.wschase.boot.ExampleApplicationWebTest.test1(ExampleApplicationWebTest.java:28)
+
