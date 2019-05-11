@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+   <!--在Springcore里面这个配置文件就是为了创建对象而配置的容器-->
+
+    <!--
+    通过Spring实例化对象
+    -->
+    <!--对圆形这个类创建对象的描述信息，只告诉你怎么创建对象，这个id就表示对象的名字-->
+    <bean id="circular" class="com.wschase.springcore.common.impl.Circular">
+        <constructor-arg name="radius" value="10"/>
+    </bean>
+
+    <bean id="triangle" class="com.wschase.springcore.common.impl.Triangle">
+        <constructor-arg name="a" value="10"/>
+        <constructor-arg name="b" value="12"/>
+        <constructor-arg name="c" value="20"/>
+    </bean>
+
+    <bean id="rectangle" class="com.wschase.springcore.common.impl.Rectangle">
+        <constructor-arg name="height" value="10"/>
+        <constructor-arg name="width" value="20"/>
+    </bean>
+
+    <bean id="xmlShapeCompute" class="com.wschase.springcore.xml.XmlShapeCompute">
+        <!--
+        这个时候XmlShapeCompute依赖了Shape这个类，所以我们需要将它们的依赖关系在这个地方进行描述，
+        当我们进行描述以后容器会自动的进行装配。这个ref表示引用的意思，下面的表达就是容器会将我们的circular的值赋值到我们XmlShapeCompute类
+        里面的circular属性
+        -->
+        <property name="circular" ref="circular"/>
+        <property name="triangle" ref="triangle"/>
+        <property name="rectangle" ref="rectangle"/>
+    </bean>
+</beans>

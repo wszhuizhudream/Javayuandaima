@@ -1,0 +1,6 @@
+com\wschase\springcore\common\impl\Circular.class
+com\wschase\springcore\common\impl\Triangle.class
+com\wschase\springcore\xml\XmlApplication.class
+com\wschase\springcore\common\impl\Rectangle.class
+com\wschase\springcore\common\Shape.class
+com\wschase\springcore\xml\XmlShapeCompute.class
