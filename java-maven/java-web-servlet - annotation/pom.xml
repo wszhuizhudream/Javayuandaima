@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wschase</groupId>
+    <artifactId>java-web</artifactId>
+    <version>1.0.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--打包类型-->
+    <packaging>war</packaging>
+    <!--注意：javaWeb程序最后是要在我们的容器里面运行-->
+
+    <!--添加依赖:如果你要开发一个web程序那么你就需要开发一个Servlet-api-->
+    <dependencies>
+        <!--Java Servlet API 3.1.0-->
+        <!--API就是一种规定标准-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <!--些了这个的时候会在打包的时候不包含这个jar包-->
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
+
+
+</project>
