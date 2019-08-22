@@ -1,8 +1,6 @@
 package com.wschase.producercustomer;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
 
-import java.lang.reflect.Proxy;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.atomic.AtomicInteger;

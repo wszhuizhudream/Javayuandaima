@@ -1,4 +1,4 @@
-package com.wschase.mutil.sever;
+package sever;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +6,6 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.util.Map;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.concurrent.ConcurrentHashMap;
 

@@ -45,7 +45,7 @@
       <file leaf-file-name="TestUseJdbcTemplete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state>
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcTemplete.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JdbcTemplete.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2002">
-              <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+            <state relative-caret-position="-440">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
@@ -67,6 +67,20 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java-idea-3-24-jdbc.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-idea-3-24-jdbc.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="ImplementSQL.java" pinned="false" current-in-tab="false">
@@ -87,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcTemplete1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JdbcTemplete1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
+            <state relative-caret-position="569">
               <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
             </state>
           </provider>
@@ -132,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete1.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/ImplementSQL.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc/JdbcTemplete.java" />
-        <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java" />
         <option value="$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java" />
+        <option value="$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java" />
       </list>
     </option>
   </component>
@@ -144,10 +158,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="746" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,14 +207,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../DS/-/排序算法" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -359,14 +373,16 @@
       <workItem from="1555294455955" duration="1018000" />
       <workItem from="1555635060600" duration="999000" />
       <workItem from="1556096924143" duration="1815000" />
+      <workItem from="1558268230614" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53559000" />
+    <option name="totallyTimeSpent" value="54946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -381,7 +397,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0634278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29622132" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
@@ -415,19 +431,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/ImplementSQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -701,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/Test1UseJdbcTemplete1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -774,9 +770,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-idea-3-24-jdbc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/TestUseJdbcTemplete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state>
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -784,16 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-22">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -804,10 +804,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc2/JdbcTemplete1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wschase/jdbc3/moban/JdbcTemplete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        <state relative-caret-position="-440">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

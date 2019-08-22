@@ -36,7 +36,7 @@ public class DocumentParse implements Parse{
 //                        System.out.println(htmlElement.asXml());
 
                     //(3)取出超链接
-                    DomNodeList<HtmlElement> aNodeList=div .getElementsByTagName("a");
+                    DomNodeList<HtmlElement> aNodeList=div.getElementsByTagName("a");
                     aNodeList.forEach(
                             aNode -> {
 

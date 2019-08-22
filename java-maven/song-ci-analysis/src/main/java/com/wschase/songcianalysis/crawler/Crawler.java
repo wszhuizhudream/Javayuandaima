@@ -89,7 +89,7 @@ public class Crawler {
         this.executorService.submit(new Runnable() {
             @Override
             public void run() {
-                //线程已启动就去解析
+                //线程一启动就去解析
                 parse();
             }
         });
@@ -103,9 +103,8 @@ public class Crawler {
         });
     }
 
+
     //清晰
-
-
     public void parse() {
         while (true) {
             try {

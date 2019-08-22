@@ -19,6 +19,7 @@ public class JdbcTemplete {
         this.statement = statement;
     }
 
+    //1.获取驱动
     public void load(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -27,6 +28,7 @@ public class JdbcTemplete {
         }
     }
 
+    //2.获取链接
     public void getConnection(){
         String url="jdbc:mysql://127.0.0.1:3306/memo";
         try {
@@ -36,7 +38,7 @@ public class JdbcTemplete {
         }
     }
 
-
+//获取命令
     public void getStatment1(){
         try {
             statement=connection.createStatement();
